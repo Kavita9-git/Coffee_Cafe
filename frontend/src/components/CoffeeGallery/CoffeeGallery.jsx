@@ -18,42 +18,51 @@ const galleryData = [
 
 const CoffeeGallery = () => {
   return (
-    <div className="py-20 bg-gray-100">
+    <div className="py-24 bg-gradient-to-b from-[#f8f3ef] to-white">
       <div className="container">
 
         {/* Heading */}
-        <div className="text-center mb-14">
-          <h1 className="text-4xl font-bold font-cursive">
+        <div className="text-center mb-16">
+          <h1 className="text-5xl font-bold font-cursive text-gray-800">
             Coffee Gallery
           </h1>
-          <p className="text-gray-500 mt-2">
-            Explore our delicious coffee moments
+          <p className="text-gray-500 mt-3">
+            Discover the art of coffee in every cup
           </p>
         </div>
 
-        {/* Gallery Grid */}
+        {/* Gallery */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
 
           {galleryData.map((item, index) => (
             <div
               key={index}
-              className="relative overflow-hidden rounded-xl group cursor-pointer shadow-lg"
+              className="relative group overflow-hidden rounded-2xl shadow-xl"
             >
+              
               {/* Image */}
               <img
                 src={item.img}
                 alt={item.name}
-                className="w-full h-72 object-cover transform group-hover:scale-110 transition duration-500"
+                className="w-full h-80 object-cover transform group-hover:scale-110 transition duration-700"
               />
 
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center">
+              {/* Gradient overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
 
-                <h2 className="text-white text-2xl font-semibold tracking-wide">
+              {/* Text */}
+              <div className="absolute bottom-6 left-6 opacity-0 group-hover:opacity-100 transition duration-500">
+
+                <h2 className="text-white text-2xl font-bold tracking-wide">
                   {item.name}
                 </h2>
 
+                <p className="text-gray-200 text-sm">
+                  Freshly brewed perfection
+                </p>
+
               </div>
+
             </div>
           ))}
 

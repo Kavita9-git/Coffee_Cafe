@@ -10,6 +10,7 @@ import Testimonial from './components/Testimonial/Testimonial';
 import PopularCoffee from './components/PopularCoffee/PopularCoffee';
 import SpecialOffer from './components/SpecialOffer/SpecialOffer';
 import CoffeeGallery from './components/CoffeeGallery/CoffeeGallery';
+import WhyChooseCoffee from './components/WhyChooseCoffee/WhyChooseCoffee';
 
 const App = () => {
  useEffect(() => {
@@ -27,6 +28,7 @@ const App = () => {
     <Banner />
     <SpecialOffer />
     <PopularCoffee />
+    <WhyChooseCoffee />
     <AppStore />
     <CoffeeGallery />
     <Testimonial />
