@@ -37,23 +37,30 @@ const Banner = () => {
                                 Whether you prefer a bold, robust flavor or a lighter, more delicate taste, our blend offers a harmonious balance that satisfies every coffee lover's palate.
                             </p>
 
-                            <div className="grid grid-cols-1  gap-6">
-                                <div>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                <div className="space-y-5">
                                     <div className="flex items-center gap-3">
                                         <GrSecure
                                             className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100" />
                                         <span>Premirm Coffee</span>
                                     </div>
-                                    <div className="flex items-center gap-3">
+                                    <div className="flex items-center gap-3 mt-3">
                                         <IoFastFood
-                                            className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100" />
+                                            className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-orange-100" />
                                         <span>Hot Coffee</span>
                                     </div>
-                                      <div className="flex items-center gap-3">
+                                      <div className="flex items-center gap-3 mt-3">
                                         <GiFoodTruck
-                                            className="text-4xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100" />
+                                            className="text-4xl h-12 w-12 shadow-sm p-3 rounded-full bg-yellow-100" />
                                         <span>Cold Coffee</span>
                                     </div>
+                                </div>
+                                <div className="border-l-4 border-primary/50 pl-6 space-y-3">
+                                    <h1 className="text-2xl font-semibold font-cursive">Tea Lover</h1>
+                                    <p className="text-gray-500 text-sm">
+                                        {" "}
+                                        For those who prefer a lighter, more delicate taste, our blend offers a harmonious balance that satisfies every tea lover's palate.
+                                    </p>
                                 </div>
                             </div>
 
