@@ -18,6 +18,7 @@ const bgImage = {
 const Banner = () => {
     return (
         <>
+         <span id="banner"></span>
             <div style={bgImage}>
                 <div className="container min-h-[550px] flex justify-center items-center py-12 sm:py-0">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 ">
@@ -30,7 +31,7 @@ const Banner = () => {
                         </div>
                         {/* Text content Section */}
                         <div className="flex flex-col justify-center gap-6 sm:pt-0 ">
-                            <h1 className="text-3xl sm:text-4xl font-bold font-cursive">Premium Blen Coffee</h1>
+                            <h1 className="text-3xl sm:text-4xl font-bold font-cursive">Premium Blend Coffee</h1>
                             <p className="text-sm text-gray-500 tracking-wide leading-5">
 
 

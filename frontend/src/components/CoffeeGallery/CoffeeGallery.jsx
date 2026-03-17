@@ -18,6 +18,8 @@ const galleryData = [
 
 const CoffeeGallery = () => {
   return (
+     <>
+     <span id="gallery"></span>
     <div className="py-24 bg-gradient-to-b from-[#f8f3ef] to-white">
       <div className="container">
 
@@ -70,6 +72,7 @@ const CoffeeGallery = () => {
 
       </div>
     </div>
+</>
   );
 };
 

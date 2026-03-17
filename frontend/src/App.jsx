@@ -11,7 +11,8 @@ import PopularCoffee from './components/PopularCoffee/PopularCoffee';
 import SpecialOffer from './components/SpecialOffer/SpecialOffer';
 import CoffeeGallery from './components/CoffeeGallery/CoffeeGallery';
 import WhyChooseCoffee from './components/WhyChooseCoffee/WhyChooseCoffee';
-
+import Footer from './components/Footer/Footer';
+import CafeVibes from './components/CafeVibes/CafeVibes';
 const App = () => {
  useEffect(() => {
   AOS.init({
@@ -26,12 +27,15 @@ const App = () => {
     <Home />
     <Services />
     <Banner />
+     <WhyChooseCoffee />
     <SpecialOffer />
     <PopularCoffee />
-    <WhyChooseCoffee />
+   
     <AppStore />
     <CoffeeGallery />
+    <CafeVibes />
     <Testimonial />
+    <Footer /> 
   </div>;
    
 }
