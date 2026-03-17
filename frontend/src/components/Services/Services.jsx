@@ -13,17 +13,17 @@ const ServicesData = [
   {
     id: 2,
     img: Img2,
-    name: 'Espresso',
+    name: 'Cappuccino',
     description:
-      'A strong and concentrated coffee made by forcing hot water through finely-ground coffee beans.',
+      'A perfect balance of espresso, steamed milk, and foam for a rich and creamy taste.',
     aosDelay: '200',
   },
   {
     id: 3,
     img: Img2,
-    name: 'Espresso',
+    name: 'Latte',
     description:
-      'A strong and concentrated coffee made by forcing hot water through finely-ground coffee beans.',
+      'A smooth coffee drink made with espresso and a larger amount of steamed milk.',
     aosDelay: '300',
   },
 ];
@@ -32,41 +32,53 @@ const Services = () => {
   return (
     <>
       <span id="services"></span>
-      <div className="py-16 bg-white">
-        <div className="container mx-auto px-6">
+
+      <div className="py-12 sm:py-16 bg-white">
+        <div className="container mx-auto px-4 sm:px-6">
+
           {/* Header */}
-          <div className="text-center mb-20">
-            <h1 className="text-4xl font-bold font-cursive text-gray-800">Best Coffee For You</h1>
+          <div className="text-center mb-12 sm:mb-16">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold font-cursive text-gray-800">
+              Best Coffee For You
+            </h1>
           </div>
 
-          {/* Services Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 place-items-center">
-            {ServicesData.map((data, index) => (
+          {/* Cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+            {ServicesData.map((data) => (
               <div
                 key={data.id}
                 data-aos="fade-up"
                 data-aos-delay={data.aosDelay}
-                className="rounded-2xl bg-white hover:bg-primary hover:text-white shadow-lg hover:shadow-xl duration-300 max-w-[320px] w-full group relative cursor-pointer transition"
+                className="group bg-white text-gray-800 rounded-2xl p-6 text-center shadow-lg transition duration-300 cursor-pointer
+                hover:bg-primary hover:text-white"
               >
+
                 {/* Image */}
-                <div className="h-[130px] flex justify-center">
+                <div className="flex justify-center mb-4">
                   <img
                     src={data.img}
                     alt={data.name}
-                    className="w-44 h-44 object-contain -translate-y-1/3 group-hover:scale-110 group-hover:rotate-6 transition duration-300"
+                    className="w-40 sm:w-44 md:w-48 object-contain transition duration-300 
+group-hover:scale-125 group-hover:rotate-6"
                   />
                 </div>
 
-                {/* Text Content */}
-                <div className="p-5 text-center">
-                  <h1 className="text-xl font-bold mb-2">{data.name}</h1>
-                  <p className="text-gray-600 group-hover:text-white duration-300 text-sm line-clamp-3">
-                    {data.description}
-                  </p>
-                </div>
+                {/* Title */}
+                <h2 className="text-lg sm:text-xl font-bold mb-2">
+                  {data.name}
+                </h2>
+
+                {/* Description */}
+                <p className="text-gray-600 text-sm sm:text-base transition duration-300 
+                group-hover:text-white">
+                  {data.description}
+                </p>
+
               </div>
             ))}
           </div>
+
         </div>
       </div>
     </>

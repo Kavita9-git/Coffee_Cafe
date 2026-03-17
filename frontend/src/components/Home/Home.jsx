@@ -23,7 +23,7 @@ const Home = () => {
                         <h1>Hey Coder</h1>
                     </div>
 
-                     <div className="bg-gradient-to-r from-primary to-secondary absolute bottom-50 right-10 p-3 rounded-xl">
+                     <div className="bg-gradient-to-r from-primary to-secondary absolute bottom-30 right-10 p-3 rounded-xl">
                         <h1>Best Coffee</h1>
                     </div>
                 </div>
