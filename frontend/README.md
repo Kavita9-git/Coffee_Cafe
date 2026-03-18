@@ -41,19 +41,19 @@ Coffee_Cafe/
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home](./frontend/src/assets/website/Coffee_cafe.png)
+![Home](frontend/src/assets/website/Coffee_cafe.png)
 
 ### 🛠️ Services Section
-![Services](./frontend/src/assets/website/Coffee_cafe1.png)
+![Services](frontend/src/assets/website/Coffee_cafe1.png)
 
 ### 👩‍💻 About Section
-![About](./frontend/src/assets/website/Coffee_cafe2.png)
+![About](frontend/src/assets/website/Coffee_cafe2.png)
 
 ### ☕ Our Popular Coffee
-![Popular Coffee](./frontend/src/assets/website/Coffee_cafe3.png)
+![Popular Coffee](frontend/src/assets/website/Coffee_cafe3.png)
 
 ### 🖼️ Coffee Gallery
-![Gallery](./frontend/src/assets/website/Coffee_cafe4.png)
+![Gallery](frontend/src/assets/website/Coffee_cafe4.png)
 
 ---
 
