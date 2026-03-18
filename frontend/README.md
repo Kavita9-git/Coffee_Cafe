@@ -41,7 +41,7 @@ Coffee_Cafe/
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home](frontend/src/assets/website/Coffeecafe.JPG)
+![Home](https://raw.githubusercontent.com/Kavita9-git/Coffee_Cafe/master/frontend/src/assets/website/Coffeecafe.JPG)
 
 ### 🛠️ Services Section
 ![Services](frontend/src/assets/website/Coffee_cafe1.JPG)
