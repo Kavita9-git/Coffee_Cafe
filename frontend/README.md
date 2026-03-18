@@ -38,22 +38,23 @@ Coffee_Cafe/
 
 ---
 
+
 ## 📸 Screenshots
 
 ### 🏠 Home Page
 ![Home](https://raw.githubusercontent.com/Kavita9-git/Coffee_Cafe/master/frontend/src/assets/website/Coffeecafe.JPG)
 
 ### 🛠️ Services Section
-![Services](frontend/src/assets/website/Coffee_cafe1.JPG)
+![Services](https://raw.githubusercontent.com/Kavita9-git/Coffee_Cafe/master/frontend/src/assets/website/Coffee_cafe1.JPG)
 
 ### 👩‍💻 About Section
-![About](frontend/src/assets/website/Coffee_cafe2.JPG)
+![About](https://raw.githubusercontent.com/Kavita9-git/Coffee_Cafe/master/frontend/src/assets/website/Coffee_cafe2.JPG)
 
 ### ☕ Our Popular Coffee
-![Popular Coffee](frontend/src/assets/website/Coffee_cafe3.JPG)
+![Popular Coffee](https://raw.githubusercontent.com/Kavita9-git/Coffee_Cafe/master/frontend/src/assets/website/Coffee_cafe3.JPG)
 
 ### 🖼️ Coffee Gallery
-![Gallery](frontend/src/assets/website/Coffee_cafe4.JPG)
+![Gallery](https://raw.githubusercontent.com/Kavita9-git/Coffee_Cafe/master/frontend/src/assets/website/Coffee_cafe4.JPG)
 
 ---
 
